@@ -1,0 +1,23 @@
+.dataChip {
+  background-color: #1c1c1c;
+  border-radius: 16px;
+  padding: 16px;
+  fill: white;
+  width: 202px;
+  height: 126px;
+  min-width: 200px;
+}
+
+.dataChip img {
+  filter: invert(1);
+}
+
+.highlighted img {
+  filter: invert(0);
+}
+
+.highlighted {
+  background-color: #ff9900;
+  color: black;
+  fill: black;
+}

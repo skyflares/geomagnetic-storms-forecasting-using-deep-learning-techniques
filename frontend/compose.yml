@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile 
+    ports:
+      - '3000:3000' # Adjust the external port as needed 
+    volumes: 
+      - ./:/usr/src/app # For development, map code changes

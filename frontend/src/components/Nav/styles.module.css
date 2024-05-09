@@ -1,0 +1,11 @@
+.nav {
+  /* position: absolute; */
+}
+
+.navEntry {
+  transition: all 1s ease;
+}
+
+.active {
+  color: #f9a11c;
+}

@@ -1,0 +1,26 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  /* top: 0; */
+  background: url("/sun.png");
+  background-size: cover;
+  opacity: 0.55;
+  z-index: -1;
+  min-width: 829px;
+  min-height: 752px;
+  object-fit: cover;
+}
+
+span {
+  color: #FF9900;
+}
+
+.vline {
+  width: 1px;
+  border-left: white dashed 1px;
+}

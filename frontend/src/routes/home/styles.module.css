@@ -1,0 +1,48 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  background: url("/cover.png");
+  background-size: cover;
+  opacity: 0.55;
+  z-index: -1;
+  min-width: 100vw;
+  height: 100%;
+}
+
+.overlayBand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  padding: 1.75rem 0;
+  z-index: -1;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  padding: 5rem 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  background: url("/news.png");
+  background-size: cover;
+  opacity: 0.40;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
